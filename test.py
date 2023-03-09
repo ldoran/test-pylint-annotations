@@ -1,5 +1,17 @@
 import urllib
-from itertools import chain, combinations, cycle, groupby, ifilter, ifilterfalse, imap, izip, tee, takewhile, starmap
+from itertools import (
+    chain,
+    combinations,
+    cycle,
+    groupby,
+    ifilter,
+    ifilterfalse,
+    imap,
+    izip,
+    tee,
+    takewhile,
+    starmap,
+)
 
 
 def first_function(a, b, c, d=None):
@@ -12,5 +24,10 @@ def second_function():
 
 def third_function(first_arg, second_arg, third_arg, fourth_arg, fifth_arg, sixth_arg, seventh_arg, eighth_arg):
     return 5
+
+
+def fourthFunction(first_arg, second_arg, third_arg, fourth_arg, fifth_arg, sixth_arg, seventh_arg, eighth_arg):
+    return first_arg + second_arg + third_arg + fourth_arg + fifth_arg+sixth_arg + seventh_arg + eighth_arg
+    return first_arg
 
 
